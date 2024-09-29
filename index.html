@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Практическая работа по модулю 11</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1 class="h1">Планировщик задач</h1>
+	</header>
+	<main>
+		<div class="container">
+			<div class="form">
+				<div class="input">
+					
+					<label for=""><textarea type="input" class="textarea" id="task" placeholder="Задача*" required></textarea></label>
+					<button class="btn" id="plus"><svg width="40" height="40" viewBox="0 0 48 48" 
+							xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_0_202)">
+								<path d="M23 32.34L9.65999 24L6.82999 26.83L18 38L42 14L39.17 11.17L18 32.34Z"  />
+							</g>
+							<defs>
+								<clipPath id="clip0_0_202">
+									<rect width="48" height="48" />
+								</clipPath>
+							</defs>
+						</svg>
+					</button>
+
+				</div>
+
+
+				<div class="tasks">
+
+					<ol id="plusTask">
+
+					</ol>
+					<p class="tooltip"> Для удаления  задачи, нажмите "Удалить"</p>
+
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+
+	<script src="./js/script.js"></script>
+</body>
+
+</html>
